@@ -25,5 +25,11 @@
         "./vscode-dotnet-runtime-extension",
         "./vscode-dotnet-sdk-extension",
         "./sample"
-    ]
+    ],
+    "github.copilot.chat.tools.memory.enabled": true,
+    "testing.coverageBarThresholds": {
+        "red": 0,
+        "yellow": 60,
+        "green": 90
+    }
 }
